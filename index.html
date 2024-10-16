@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Reset */
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        /* codigo pagina */
+
+            header,nav,main,footer {
+                width: 80%;
+                margin: 0 auto;
+            }
+
+        header {
+            min-height: 8rem;
+            background-color: pink;
+        }
+
+        nav {
+            min-height: 4rem;
+            background-color: orange;
+        }
+
+        main {
+            min-height: 20rem;
+            background-color: lightblue;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            
+        }
+
+        footer {
+            min-height: 7rem;
+            background-color: chartreuse;
+        }
+        
+        .ponerBorde { 
+            border: 0.3rem solid black;
+        }
+        
+        main div {
+            width: 20%;
+            min-height: 5rem;
+            background-color: lightgray;
+            border: 0.2rem solid red;
+        }
+        .izda {
+            background-color: yellow;
+
+        }
+        .dcha {
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+
+    </header>
+    <nav class="ponerBorde">
+
+    </nav>
+    <main id="principal">
+        <div class="izda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore temporibus obcaecati ducimus consequatur dignissimos quasi! Reiciendis praesentium incidunt in accusamus!</div>
+        <div class="dcha">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae doloremque quaerat necessitatibus. Et consequuntur ad, ducimus fugiat harum facere unde.</div>
+        <div class="centro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae doloremque quaerat necessitatibus. Et consequuntur ad, ducimus fugiat harum facere unde.</div>
+        <div class="2izda">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae doloremque quaerat necessitatibus. Et consequuntur ad, ducimus fugiat harum facere unde.</div>
+
+    </main>
+    <footer class="ponerBorde">
+
+    </footer>
+
+
+</body>
+</html>
