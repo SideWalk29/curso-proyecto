@@ -1,0 +1,143 @@
+        /* Reset */
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        ul {
+            list-style:none;
+            margin-right: 0;
+        }
+        /* codigo pagina en desktop */
+
+            header,nav,main,footer {
+                width: 80%;
+                margin: 0 auto;
+            }
+
+        header {
+            min-height: 8rem;
+            background-color: pink;
+        }
+
+        nav {
+            min-height: 7rem;
+            background-color: orange;
+        }
+
+        main {
+            min-height: 20rem;
+            background-color: lightblue;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            
+        }
+
+        footer {
+            min-height: 7rem;
+            background-color: chartreuse;
+        }
+        
+        .ponerBorde { 
+            border: 0.3rem solid black;
+        }
+        
+        main div {
+            width: 20%;
+            min-height: 5rem;
+            background-color: lightgray;
+            border: 0.2rem solid red;
+        }
+        .izda {
+            background-color: yellow;
+
+        }
+        .dcha {
+            background-color: greenyellow;
+        }
+
+        .centro {
+            background-color:rgb(189, 255, 181);
+        }
+
+        .aizda {
+            background-color: rgb(255, 169, 169);
+
+        }
+            
+        
+        main div a {
+            font-size: 1.2rem;
+                    color: rgb(159, 60, 60);
+                    font-weight: 600;
+                     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+                    }
+
+       nav ul {
+            border: 0.1rem solid blue;
+            min-height: 7rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+
+        nav ul li {
+            width: 5rem;
+               height: 2rem;
+            /* border: 0.1rem solid green; */
+            margin: 0.5rem;
+
+        }
+
+        ul li a {  
+            font-size: 1.25rem;
+            color: blueviolet;
+            display: block;
+            text-align: center;
+            padding-top: 0.2rem;
+            background-color: rgb(0, 235, 0);
+            border-radius: 0.5rem;
+
+        }
+ul li a:hover {
+    background-color: rgb(255, 213, 189);
+    color: rgb(15, 73, 15);
+    transition: 500ms;
+
+}
+
+/* Codigo pagina en tablet */
+
+
+/* Codigo pagina en cellphone */
+
+@media screen and (max-width:900px) {
+    
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    main div {
+        width: 45%;
+    }
+    
+    body {
+        background-color: aqua;
+    }
+
+}
+
+@media screen and (max-width:602px) {
+
+    main div {width: 90%;}
+
+    body {background-color: blue;}
+
+}
